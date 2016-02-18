@@ -34,7 +34,6 @@ exports.main = function(event, context){
 	
 	default:
 		
-		var shippedItems = [];
 		mailOptions.subject = 'Updated Photo & Go Order Status';
 		email_template = 'makeable.shippedorder';
 		
