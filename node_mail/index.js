@@ -24,7 +24,6 @@ var nodemailer = require('nodemailer');
 var aws = require('aws-sdk');
 var handlebars = require('handlebars');
 var htmlToText = require('nodemailer-html-to-text').htmlToText;
-var global_context;
 
 exports.main = function(event, context) {
 	
